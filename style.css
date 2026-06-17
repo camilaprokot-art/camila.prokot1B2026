@@ -4,6 +4,7 @@ body {
     font-family:bold;
 }
 header {
+    text-align: center;
     border-bottom:2px solid #E4007C; 
     padding:10px;
 }
