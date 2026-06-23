@@ -24,7 +24,7 @@ main {
     border-radius: 10px;
     img {
   float: left;        /* Faz a imagem "flutuar" à esquerda e o texto subir para o lado */
-  margin-right: 15px; /* Empurra o texto um pouco para não colar na imagem */
+  margin-right: 20px; /* Empurra o texto um pouco para não colar na imagem */
   max-width: 300px;
 }
 }
