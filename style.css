@@ -24,8 +24,13 @@ main {
     border-radius: 10px;
    img {
   float: left;        /* Faz a imagem "flutuar" à esquerda e o texto subir para o lado */
-   /* Empurra o texto um pouco para não colar na imagem */
+   margin-right: 15px; /* Empurra o texto um pouco para não colar na imagem */
   max-width: 300px;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both; /* Limpa o float tanto à esquerda quanto à direita */
 }
 }
 footer {
