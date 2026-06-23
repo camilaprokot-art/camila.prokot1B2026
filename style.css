@@ -16,7 +16,7 @@ nav a {
     font-weight:bold;
 }
 main {
-    container: 
+    container 
   display: flex;       /* Ativa o modo Flexbox */
   align-items: center; /* Alinha a imagem e o texto verticalmente pelo centro */
   gap: 20px;          /* Cria um espaço de 20px entre a imagem e o texto */
