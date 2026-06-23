@@ -22,16 +22,18 @@ main {
     background-color:rgb(248, 237, 244);
     padding: 35px;
     border-radius: 10px;
-   img {
-  float: left;        /* Faz a imagem "flutuar" à esquerda e o texto subir para o lado */
-   margin-right: 15px; /* Empurra o texto um pouco para não colar na imagem */
-  max-width: 300px;
+   .container {
+  display: flex;       /* Ativa o modo Flexbox */
+  align-items: center; /* Alinha a imagem e o texto verticalmente pelo centro */
+  gap: 20px;          /* Cria um espaço de 20px entre a imagem e o texto */
 }
-.container::after {
-  content: "";
-  display: table;
-  clear: both; /* Limpa o float tanto à esquerda quanto à direita */
+
+/* Opcional: Garanta que a imagem não fique gigante */
+.container img {
+  max-width: 300px;    /* Ajuste o tamanho máximo da imagem como preferir */
+  height: auto;
 }
+
 }
 footer {
     text-align: center; 
